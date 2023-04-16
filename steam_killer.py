@@ -24,7 +24,7 @@ def main():
     print("Monitoring for Steam process...")
 
     start_time = None
-    max_duration = 60 * 60  # 1 hour in seconds
+    max_duration = 60 * 30  # 30 min in seconds
     check_interval = 1
 
     while True:
